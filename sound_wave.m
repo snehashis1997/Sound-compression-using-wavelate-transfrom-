@@ -1,6 +1,5 @@
 
 [so,fs]=audioread('test.wav');
-% so=imread('35.tif');
 so=double(so);
 fm=100;
 [num1,den1]=butter(9,5*fm/fs,'low');
